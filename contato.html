@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;" />
+<title>Formulário de Cadastro</title>
+</head>
+<body>
+<form method="post" action="confirmar_dados.html" name="formCadastro" />
+<p align="center"><font face="Verdana" size=4 color="blue">Formulário de Cadastro</font></p>
+<p>Nome: <input maxlength="50" size="50" name="nome" /></p>
+<p>Endereço: <input maxlength="50" size="50" name="endereco" /><input maxlength="8" size="8" name="numero" /></p>
+<p>Bairro: <input maxlength="40" size="40" name="bairro" /></p>
+<p>Cidade: <input maxlength="40" size="40" name="cidade" /></p>
+<p>Estado:&nbsp;
+<select name="estado">
+<option value="AC">Acre</option>
+<option value="AL">Alagoas</option>
+<option value="AM">Amazonas</option>
+<option value="AP">Amapá</option>
+<option value="BA">Bahia</option>
+<option value="CE">Ceará</option>
+<option value="DF">Distrito Federal</option>
+<option value="ES">Espírito Santo</option>
+<option value="GO">Goiás</option>
+<option value="MA">Maranhão</option>
+<option value="MG">Minas Gerais</option>
+<option value="MS">Mato Grosso do Sul</option>
+<option value="MT">Mato Grosso</option>
+<option value="PA">Pará</option>
+<option value="PB">Paraíba</option>
+<option value="PE">Pernambuco</option>
+<option value="PI">Piauí</option>
+<option value="PR">Paraná</option>
+<option value="RJ">Rio de Janeiro</option>
+<option value="RN">Rio Grande do Norte</option>
+<option value="RO">Rondônia</option>
+<option value="RR">Roraima</option>
+<option value="RS">Rio Grande do Sul</option>
+<option value="SC">Santa Catarina</option>
+<option value="SE">Sergipe</option>
+<option value="SP">São Paulo</option>
+<option value="TO">Tocantins</option>
+</select>
+</p>
+<p>Telefone: <input maxlength="20" size="20" name="telefone" /></p>
+<p>Sexo: <input type="radio" name="sexo" value="M" />Masculino
+<input type="radio" name="sexo" value="F" />Feminino</p>
+<p>Comentarios:</p>
+<p><textarea name="Comentarios"></textarea></p>
+<input name="enviar" value="Enviar" type="submit" />&nbsp;
+<input name="limpar" value="Limpar" type="reset" />
+</form>
+</body>
+</html>
